@@ -32,7 +32,6 @@ La aplicación estará disponible en el puerto 8000.
 ## Instrucciones para correr las pruebas
 Para ejecutar los tests unitarios e integrados, así como validar la calidad del código, corre los siguientes comandos:
     
-    ```bash
     pytest
     black app/
     isort app/
