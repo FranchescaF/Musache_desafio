@@ -1,0 +1,15 @@
+# Entornos virtuales
+venv/
+env/
+
+# Variables de entorno
+.env
+
+# Caché de Python y pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Base de datos SQLite
+*.db

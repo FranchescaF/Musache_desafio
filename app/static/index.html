@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musache AI Assistant</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 0 20px; }
+        #chat-box { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; margin-bottom: 10px; border-radius: 5px; }
+        .user-msg { color: blue; margin-bottom: 5px; }
+        .ai-msg { color: green; margin-bottom: 15px; }
+        .controls { display: flex; gap: 10px; margin-bottom: 20px; }
+        input[type="text"] { flex-grow: 1; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Asistente IA - Musache</h1>
+    
+    <div class="controls">
+        <input type="file" id="file-upload" accept=".pdf,.txt">
+        <button onclick="alert('Funcionalidad de subida pendiente de conexión')">Subir Documento</button>
+    </div>
+
+    <div id="chat-box"></div>
+
+    <div class="controls">
+        <input type="text" id="question-input" placeholder="Escribe tu pregunta aquí...">
+        <button onclick="askQuestion()">Preguntar</button>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
